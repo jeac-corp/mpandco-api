@@ -1,3 +1,5 @@
+[<- Regresar a la documentación]({{site.baseurl}}/)
+
 <div id="step42"></div>
 ## 4.3. Usar token de acceso para acceder a la API.
 

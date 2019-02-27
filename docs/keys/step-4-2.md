@@ -1,3 +1,5 @@
+[<- Regresar a la documentación]({{site.baseurl}}/)
+
 <div id="step42"></div>
 ## 4.2. Solicitud de token de acceso.
 
