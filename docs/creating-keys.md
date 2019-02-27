@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Hank Quinlan, Horrible Cop
 ---
 
 <div id="step40"></div>
