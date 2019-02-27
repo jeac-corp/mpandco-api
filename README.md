@@ -1,3 +1,4 @@
+![API.png]({{site.baseurl}}/images/API.png)
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/jeac-corp/mpandco-api/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
