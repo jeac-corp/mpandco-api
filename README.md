@@ -10,10 +10,10 @@
 4.3. [Usar token de acceso para acceder a la API.]({{site.baseurl}}/docs/keys/step-4-3.html)<br/>
 
 5. Uso del API mPandco<br/>
-5.1. [Generar intención de pago (Botón de pago).]({{site.baseurl}}/docs/use/step-5-1.html)<br/>
-5.2. Ejecutar intención de pago (Botón de pago).<br/>
+5.1. [Generar intención de pago (Botón de pago).]({{site.baseurl}}/docs/use/step-5-1.html#step51)<br/>
+5.2. [Ejecutar intención de pago (Botón de pago).]({{site.baseurl}}/docs/use/step-5-1.html#step52<br/>
 5.4. Generar intención de pago (API de facturación).<br/>
-5.5. Ejecutar intención de pago (Sistemas de facturación).<br/>
+5.5. Ejecutar intención de pago (API de facturación).<br/>
 5.6. Obtener intención de pago.<br/>
 5.7. Obtener historial de las intenciónes de pagos.<br/>
 5.8. Obtener historial de los pagos.<br/>
