@@ -27,13 +27,34 @@ Para interactuar con el API de mPandco debe seguir los siguientes pasos:
 
 ![image008.png]({{site.baseurl}}/images/image008.png)
 
-* Nombre de la aplicación: Ingresar nombre de la aplicación o sistema web.
-* Descripción de la aplicación: Resumen breve de su aplicación.
-* Url de página de inicio: Dominio principal de su aplicación desde el cual realizará la integración. Ej. htttp://www.mystore.com
-* Cuenta electrónica destinataria de los fondos: Cuenta mPandco donde se acreaditaran todos los pagos recibidos.
-* Logo de la aplicación: Adjuntar logo de su aplicación, debe ser imágen nítida en formato png.
-*
+* **Nombre de la aplicación**: Ingresar nombre de la aplicación o sistema web.
+* **Descripción de la aplicación**: Resumen breve de su aplicación.
+* **Url de página de inicio**: Dominio principal de su aplicación desde el cual realizará la integración. Ej. htttp://www.mystore.com
+* **Cuenta electrónica destinataria de los fondos**: Cuenta mPandco donde se acreaditaran todos los pagos recibidos.
+* **Logo de la aplicación**: Adjuntar logo de su aplicación, debe ser imágen nítida en formato png.
+
 4.1.6 Dar click en el botón “Aceptar”, la información será guardada y mostrara el resumen de los datos de acceso, tal como se muestra en las siguientes imágenes:
 
 Detalles de la aplicación registrada:
+
 ![image010.png]({{site.baseurl}}/images/image010.png)
+
+Llaves de acceso:
+
+![image012.png]({{site.baseurl}}/images/image012.png)
+
+**Nota**: _Bajo el ambiente de pruebas de mPandco la opción “Cliente listo para usar” estará habilitada, una vez realizada todas las pruebas y cumplido todos los requisitos deberá solicitar la activación para el uso de la API a través del correo atencionalcliente@mpandco.com_.
+
+Permisos:
+
+![image014.png]({{site.baseurl}}/images/image014.png)
+
+**Nota**: _Por defecto el acceso al API de facturación estará deshabilitado, si desea integrar esta opción debe realizar la solicitud al correo atencionalcliente@mpandco.com_.
+
+Cuenta receptora:
+
+![image016.png]({{site.baseurl}}/images/image016.png)
+
+Si desea la opción de distribución automática del dinero recibido entre varias cuentas mPandco , el comercio o empresa deberá realizar la solicitud al correo atencionalcliente@mpandco.com, autorizando está opción.
+
+**IMPORTANTE: Una vez completada las pruebas de la API y cumplido con los requisitos, deben solicitar la habilitación de conexión en ambiente productivo a través del correo atencionalcliente@mpandco.com.**
