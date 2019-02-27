@@ -11,7 +11,7 @@
 
 5. Uso del API mPandco<br/>
 5.1. [Generar intención de pago (Botón de pago).]({{site.baseurl}}/docs/use/step-5-1.html#step51)<br/>
-5.2. [Ejecutar intención de pago (Botón de pago).]({{site.baseurl}}/docs/use/step-5-1.html#step52<br/>
+5.2. [Ejecutar intención de pago (Botón de pago).]({{site.baseurl}}/docs/use/step-5-1.html#step52)<br/>
 5.4. Generar intención de pago (API de facturación).<br/>
 5.5. Ejecutar intención de pago (API de facturación).<br/>
 5.6. Obtener intención de pago.<br/>
