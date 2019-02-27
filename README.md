@@ -4,13 +4,13 @@
 1. <a href="#step1">Histórico de cambios</a>
 2. <a href="#step2">Introducción</a>
 3. <a href="#step3">Requisitos</a><br/>
-4. [Creación de llaves.]({{site.baseurl}}/docs/keys/step-4-1.html#step41)<br/>
-4.1. [Registro de aplicaciones oAuth2.]({{site.baseurl}}/docs/keys/step-4-1.html#step41)<br/>
+4. Creación de llaves.<br/>
+4.1. [Registro de aplicaciones oAuth2.]({{site.baseurl}}/docs/keys/step-4-1.html)<br/>
 4.2. [Solicitud de token de acceso.]({{site.baseurl}}/docs/keys/step-4-2.html)<br/>
 4.3. [Usar token de acceso para acceder a la API.]({{site.baseurl}}/docs/keys/step-4-3.html)<br/>
 
 5. Uso del API mPandco<br/>
-5.1. Generar intención de pago (Botón de pago).<br/>
+5.1. [Generar intención de pago (Botón de pago).]({{site.baseurl}}/docs/use/step-5-1.html)<br/>
 5.2. Ejecutar intención de pago (Botón de pago).<br/>
 5.4. Generar intención de pago (API de facturación).<br/>
 5.5. Ejecutar intención de pago (Sistemas de facturación).<br/>
