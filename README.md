@@ -5,7 +5,7 @@
 2. <a href="#step2">Introducción</a>
 3. <a href="#step3">Requisitos</a><br/>
 4. [Creación de llaves.]({{site.baseurl}}/docs/creating-keys.md)<br/>
-4.1. Registro de aplicaciones oAuth2.<br/>
+4.1. [Registro de aplicaciones oAuth2.]({{site.baseurl}}/docs/creating-keys.md#step41)<br/>
 4.2. Solicitud de token de acceso.<br/>
 4.3. Usar token de acceso para acceder a la API.<br/>
 
