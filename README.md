@@ -22,6 +22,14 @@
 7. Recomendaciones
 8. Condiciones de uso
 
+## Histórico de cambios
+Fecha  | Versión  |  Descripción
+--|---|--
+13-12-2018  | 1.0  |  Creación de documentación
+07-01-2019  | 1.1  |  Nuevo parámetro del Request del PaymentIntent
+29-01-2019  | 1.2  |  Se agrego API de movimientos de pagos "/api/payment/.json". Se agrego "relatedResources" a la intencion de pago para facilitar las conciliaciones. Nueva API para listar el historial de las intenciones de pago "GET /api/payment-intent/.json".
+
+
 You can use the [editor on GitHub](https://github.com/jeac-corp/mpandco-api/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
