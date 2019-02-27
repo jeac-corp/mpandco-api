@@ -22,12 +22,40 @@
 7. Recomendaciones
 8. Condiciones de uso
 
-## Histórico de cambios
-Fecha  | Versión  |  Descripción
---|---|--
-13-12-2018  | 1.0  |  Creación de documentación
-07-01-2019  | 1.1  |  Nuevo parámetro del Request del PaymentIntent
-29-01-2019  | 1.2  |  Se agrego API de movimientos de pagos "/api/payment/.json". Se agrego "relatedResources" a la intencion de pago para facilitar las conciliaciones. Nueva API para listar el historial de las intenciones de pago "GET /api/payment-intent/.json".
+## 1. Histórico de cambios
+<table>
+  <thead>
+    <tr>
+      <th>Fecha</th>
+      <th>Versión</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>13-12-2018</td>
+    <td>1.0</td>
+    <td>Versión de API y Documentación</td>
+  </tr>
+  <tr>
+    <td>07-01-2019</td>
+    <td>1.1</td>
+    <td>Nuevo parámetro del Request del PaymentIntent</td>
+  </tr>
+  <tr>
+    <td>29-01-2019</td>
+    <td>1.2</td>
+    <td>
+    - Se agrego API de movimientos de pagos "/api/payment/.json".<br/>
+    - Se agrego "relatedResources" a la intencion de pago para facilitar las conciliaciones.<br/>
+    - Nueva API para listar el historial de las intenciones de pago "GET /api/payment-intent/.json".
+    </td>
+  </tr>
+  </tbody>
+</table>
+
+
+
 
 
 You can use the [editor on GitHub](https://github.com/jeac-corp/mpandco-api/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
