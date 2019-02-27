@@ -1,5 +1,28 @@
 ![API.png]({{site.baseurl}}/images/API.png)
-## Welcome to GitHub Pages
+## Tabla de contenido
+
+Histórico de cambios
+Introducción
+Requisitos
+1.Creación de llaves
+1.1.Registro de aplicaciones  OAUTH.
+1.1.Solicitud de token de acceso.
+1.1.Usar token de acceso para acceder a la API.
+
+Uso del API mPandco	
+1.- Generar intención de pago (Botón de pago)
+2.- Ejecutar intención de pago (Botón de pago)
+3.- Generar intención de pago (API de facturación)
+4.- Ejecutar intención de pago (Sistemas de facturación).
+5.- Obtener intención de pago
+6.- Obtener historial de las intenciónes de pagos
+7.- Obtener historial de los pagos
+8.- Modelos de respuesta
+Sandbox para desarrolladores
+Recomendaciones
+Condiciones de uso
+
+
 
 You can use the [editor on GitHub](https://github.com/jeac-corp/mpandco-api/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
