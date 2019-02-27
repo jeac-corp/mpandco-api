@@ -1,9 +1,9 @@
 ![API.png]({{site.baseurl}}/images/API.png)
 ## Tabla de contenido
 
-1. Histórico de cambios
-2. Introducción
-3. Requisitos<br/>
+1. <a href="#step1">Histórico de cambios</a>
+2. <a href="#step2">Introducción</a>
+3. <a href="#step3">Requisitos</a><br/>
 4. Creación de llaves.<br/>
 4.1. Registro de aplicaciones  oAuth2.<br/>
 4.2. Solicitud de token de acceso.<br/>
@@ -23,10 +23,11 @@
 8. Condiciones de uso
 
 ## 1. Histórico de cambios
+<div id="step1"></div>
 <table>
   <thead>
     <tr>
-      <th>Fecha</th>
+      <th>&nbsp;&nbsp;Fecha&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
       <th>Versión</th>
       <th>Descripción</th>
     </tr>
@@ -54,6 +55,28 @@
   </tbody>
 </table>
 
+## 2. Introducción
+<div id="step2"></div>
+mPandco es una plataforma electrónica que provee un servicio de pago instantáneo a bajo costo, tanto para personas naturales como jurídicas. Se puede realizar la adquisión de productos y/o servicios, mediante el uso de una cuenta electrónica recargable proporcionada a través de una aplicación para teléfonos celulares.
+
+
+Si deseas recibir pagos por internet, a través de tu dispositivo móvil, página web o sistema de facturación, puedes apoyarte con mPandco para lograr tus objetivos.
+
+Este manual de integración tiene como finalidad facilitar a los departamentos de tecnologías de los comercios y a desarrolladores independientes a integrar sus soluciones web con la plataforma de pagos mPandco.
+
+## 3. Requisitos
+<div id="step3"></div>
+El comercio debe cumplir con los siguientes requisitos para poder recibir pagos a través de mPandco:
+
+- Código de afiliación para el registro del comercio. Este código se obtiendo a través del cuerpo de ventas de mPandco.
+- Dominio propio.
+- Código fuente propio o acceso al mismo.
+- Alojamiento en servidor propio o terceros.
+
+La integración con mPandco se realiza mediante su API basado en métodos RESTful bajo HTTPS.
+
+
+[I'm an inline-style link](https://www.google.com)
 
 
 
