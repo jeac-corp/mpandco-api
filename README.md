@@ -22,8 +22,8 @@
 7. Recomendaciones
 8. Condiciones de uso
 
-## 1. Histórico de cambios
 <div id="step1"></div>
+## 1. Histórico de cambios
 <table>
   <thead>
     <tr>
@@ -55,8 +55,8 @@
   </tbody>
 </table>
 
-## 2. Introducción
 <div id="step2"></div>
+## 2. Introducción
 mPandco es una plataforma electrónica que provee un servicio de pago instantáneo a bajo costo, tanto para personas naturales como jurídicas. Se puede realizar la adquisión de productos y/o servicios, mediante el uso de una cuenta electrónica recargable proporcionada a través de una aplicación para teléfonos celulares.
 
 
@@ -64,8 +64,8 @@ Si deseas recibir pagos por internet, a través de tu dispositivo móvil, págin
 
 Este manual de integración tiene como finalidad facilitar a los departamentos de tecnologías de los comercios y a desarrolladores independientes a integrar sus soluciones web con la plataforma de pagos mPandco.
 
-## 3. Requisitos
 <div id="step3"></div>
+## 3. Requisitos
 El comercio debe cumplir con los siguientes requisitos para poder recibir pagos a través de mPandco:
 
 - Código de afiliación para el registro del comercio. Este código se obtiendo a través del cuerpo de ventas de mPandco.
