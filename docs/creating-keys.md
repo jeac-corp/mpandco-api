@@ -26,3 +26,14 @@ Para interactuar con el API de mPandco debe seguir los siguientes pasos:
 4.1.5 Registrar los datos de la aplicación: Esta opcional le permitirá el acceso de su sistema para poder generar los enlaces de integración de la API de mPandco.
 
 ![image008.png]({{site.baseurl}}/images/image008.png)
+
+* Nombre de la aplicación: Ingresar nombre de la aplicación o sistema web.
+* Descripción de la aplicación: Resumen breve de su aplicación.
+* Url de página de inicio: Dominio principal de su aplicación desde el cual realizará la integración. Ej. htttp://www.mystore.com
+* Cuenta electrónica destinataria de los fondos: Cuenta mPandco donde se acreaditaran todos los pagos recibidos.
+* Logo de la aplicación: Adjuntar logo de su aplicación, debe ser imágen nítida en formato png.
+*
+4.1.6 Dar click en el botón “Aceptar”, la información será guardada y mostrara el resumen de los datos de acceso, tal como se muestra en las siguientes imágenes:
+
+Detalles de la aplicación registrada:
+![image010.png]({{site.baseurl}}/images/image010.png)
