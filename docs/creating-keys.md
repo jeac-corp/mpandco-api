@@ -1,7 +1,3 @@
----
-layout: default
----
-
 <div id="step40"></div>
 ## 4. Creación de llaves
 
