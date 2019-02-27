@@ -9,5 +9,5 @@ La implementación OAuth de mPandco admite el tipo de concesión de código de a
 Al registrarse en mPandco  como cliente empresarial, tendrá acceso directo e inmediato al API de mPandco. Esto le permitirá desarrollar las funcionalidades de pago en línea en su sitio web desde el momento en que crea su cuenta.
 
 Para interactuar con el API de mPandco debe seguir los siguientes pasos:
-1. Ir a la url https://app.mpandco.com.
+1. Ir a la url [https://test.mpandco.com](https://test.mpandco.com).
 2. Ingresar con el usuario y clave de la cuenta empresarial.
