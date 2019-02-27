@@ -89,3 +89,14 @@ POST https://app.mpandco.com/oauth/v2/token
     -F grant_type=password \
     -F username=TUUSUARIO \
     -F password=SUCLAVE
+
+### Respuesta:
+Por defecto, la respuesta toma la siguiente forma:
+
+    {
+        "access_token": "Yzc4MDBlODlkMTRhMzY1OWI2MzhlZjQ3Mzk0N2JiYzdiN2U1ZmQ2NzBkY2Q5OWFmYWU0ODg2MTExZjQ5YmQ5Mg",
+        "expires_in": 3600,
+        "token_type": "bearer",
+        "scope": "API",
+        "refresh_token": "NTBkOWUwMjRlZDYxYTA4MWZhMjgzZTU0YjAyOTU0ZGZlM2NjOGMxZjYyZTBjZjUwMzU3MDRkMGVjMzdkZWM2MA"
+    }

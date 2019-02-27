@@ -7,7 +7,7 @@
 4. [Creación de llaves.]({{site.baseurl}}/docs/keys/step-4-1.html#step41)<br/>
 4.1. [Registro de aplicaciones oAuth2.]({{site.baseurl}}/docs/keys/step-4-1.html#step41)<br/>
 4.2. [Solicitud de token de acceso.]({{site.baseurl}}/docs/keys/step-4-2.html)<br/>
-4.3. [Usar token de acceso para acceder a la API.]({{site.baseurl}}/docs/creating-keys.html#step43)<br/>
+4.3. [Usar token de acceso para acceder a la API.]({{site.baseurl}}/docs/keys/step-4-3.html)<br/>
 
 5. Uso del API mPandco<br/>
 5.1. Generar intención de pago (Botón de pago).<br/>
