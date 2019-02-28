@@ -235,4 +235,4 @@ Ejemplo de respuesta (200):
        }
     }
 
-Importante: Debe verificar que el estatus de la intención de pago en la respuesta es “executed”, el campo “related_resources.request” contiene el pago generado por la transacción.
+**Importante**: Debe verificar que el estatus de la intención de pago en la respuesta es **“executed”**, el campo **“related_resources.request”** contiene el pago generado por la transacción.
