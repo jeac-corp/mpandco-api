@@ -1,6 +1,16 @@
 ![API.png]({{site.baseurl}}/images/API.png)
-## Tabla de contenido
 
+<div id="step2"></div>
+**mPandco** es una plataforma electrónica que provee un servicio de pago instantáneo a bajo costo, tanto para personas naturales como jurídicas. Se puede realizar la adquisición de productos y/o servicios, mediante el uso de una cuenta electrónica recargable proporcionada a través de una aplicación para teléfonos celulares.
+
+
+Si deseas recibir pagos por internet, a través de tu dispositivo móvil, página web o sistema de facturación, puedes apoyarte con **mPandco** para lograr tus objetivos.
+
+Este manual de integración tiene como finalidad facilitar a los departamentos de tecnologías de los comercios y a desarrolladores independientes a integrar sus soluciones web con la plataforma de pagos mPandco.
+
+[Acceder a la documentación online.](https://jeac-corp.github.io/mpandco-api/)
+
+## Tabla de contenido
 1. <a href="#step1">Histórico de cambios</a>
 2. <a href="#step2">Introducción</a>
 3. <a href="#step3">Requisitos</a><br/>
@@ -54,15 +64,6 @@
   </tr>
   </tbody>
 </table>
-
-<div id="step2"></div>
-## 2. Introducción
-mPandco es una plataforma electrónica que provee un servicio de pago instantáneo a bajo costo, tanto para personas naturales como jurídicas. Se puede realizar la adquisión de productos y/o servicios, mediante el uso de una cuenta electrónica recargable proporcionada a través de una aplicación para teléfonos celulares.
-
-
-Si deseas recibir pagos por internet, a través de tu dispositivo móvil, página web o sistema de facturación, puedes apoyarte con mPandco para lograr tus objetivos.
-
-Este manual de integración tiene como finalidad facilitar a los departamentos de tecnologías de los comercios y a desarrolladores independientes a integrar sus soluciones web con la plataforma de pagos mPandco.
 
 <div id="step3"></div>
 ## 3. Requisitos
