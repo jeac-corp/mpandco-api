@@ -3,9 +3,9 @@
 <div id="step53"></div>
 ## 5.3. Generar intención de pago (API de facturación).
 
-Este método permite crear una intención de pago mediante un sistema de facturación para solicitar a un cliente.
+Este método permite crear una intención de pagó mediante un sistema de facturación para solicitar a un cliente.
 
-**Importante**: En el parámetro **“paymentintent[intent]”** debe enviar el valor **“request”** y el parámetro **“paymentintent[recipient]”** es requerido, debe enviar el nombre del usuario destinatario que realizará el pago.
+**Importante**: En el parámetro **“paymentintent[intent]”** debe enviar el valor **“request”** y el parámetro **“paymentintent[recipient]”** es requerido, debe enviar el nombre del usuario destinatario que realizará el pago, puede usar el nombre de usuario **(pizzaexpress)**, numero de teléfono **(584120000010)** y numero de identificación **(V19123456)**.
 
 URL: `api/payment-intent/.json`
 
@@ -13,6 +13,33 @@ Método HTTP: `POST`
 
 Documentación completa de la API:
 [Ir a la documentación](https://test.mpandco.com/docs#post--api-payment-intent-.json)
+
+### Datos mínimos a enviar:
+
+    {
+        "paymentintent": {
+            "intent": "request",
+            "redirectUrls": {
+                "returnUrl": "http://localhost:5000/payments/ExecutePayment.php?success=true&carId=200",
+                "cancelUrl": "http://localhost:5000/payments/ExecutePayment.php?success=false&carId=200"
+            },
+            "transactions": {
+                "0": {
+                    "amount": {
+                        "total": "20"
+                    },
+                    "description": "Compra por eBay",
+                    "items": {
+                        "0": {
+                            "name": "telefono",
+                            "price": "7.5"
+                        }
+                    }
+                }
+            },
+            "recipient": "V25550099"
+        }
+    }
 
 ### Ejemplo de petición:
 
@@ -36,6 +63,7 @@ Documentación completa de la API:
       -F 'paymentintent[transactions][0][items][0][price]=7.5' \
       -F 'paymentintent[transactions][0][items][0][currency]=VES' \
       -F 'paymentintent[recipient]=demo03'
+
 
 ### Respuesta:
 

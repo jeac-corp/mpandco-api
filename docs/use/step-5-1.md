@@ -14,6 +14,32 @@ Método HTTP: `POST`
 Documentación completa de la API:
 [Ir a la documentación](https://test.mpandco.com/docs#post--api-payment-intent-.json)
 
+### Datos mínimos a enviar:
+
+    {
+        "paymentintent": {
+            "intent": "sale",
+            "redirectUrls": {
+                "returnUrl": "http://localhost:5000/payments/ExecutePayment.php?success=true&carId=200",
+                "cancelUrl": "http://localhost:5000/payments/ExecutePayment.php?success=false&carId=200"
+            },
+            "transactions": {
+                "0": {
+                    "amount": {
+                        "total": "20"
+                    },
+                    "description": "Compra por eBay",
+                    "items": {
+                        "0": {
+                            "name": "telefono",
+                            "price": "7.5"
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 ### Ejemplo de petición:
 
     curl -X POST \
