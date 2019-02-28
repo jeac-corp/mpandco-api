@@ -1,3 +1,7 @@
+---
+title: This is my title
+---
+
 ![API.png]({{site.baseurl}}/images/API.png)
 
 <div id="step2"></div>
