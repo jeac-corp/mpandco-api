@@ -9,7 +9,7 @@ Este manual de integración tiene como finalidad facilitar a los departamentos d
 
 [Acceder a la documentación online.](https://jeac-corp.github.io/mpandco-api/)
 
-## Tabla de contenido
+## Contenido
 1. <a href="#step1">Histórico de cambios</a>
 2. <a href="#step2">Introducción</a>
 3. <a href="#step3">Requisitos</a><br/>
