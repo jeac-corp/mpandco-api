@@ -19,7 +19,7 @@
 5.7. [Obtener historial de los pagos.]({{site.baseurl}}/docs/use/step-5-7.html)<br/>
 5.8. [Modelos de respuesta]({{site.baseurl}}/docs/use/step-5-8.html)<br/>
 6. [Sandbox para desarrolladores.]({{site.baseurl}}/docs/step-6.html)
-7. [Recomendaciones.]({{site.baseurl}}/docs/recomendations.html)
+7. [Recomendaciones.]({{site.baseurl}}/docs/recommendations.html)
 8. [Condiciones de uso.]({{site.baseurl}}/docs/terms.html)
 
 <div id="step1"></div>
