@@ -10,7 +10,7 @@ Para acceder a la API usted debe generar un código de acceso (access_token) que
 Generación de un token de acceso:
 
 `
-POST https://app.mpandco.com/oauth/v2/token
+POST https://test.mpandco.com/oauth/v2/token
 `
 <table border="0" cellspacing="0" cellpadding="0">
 <tbody>

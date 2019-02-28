@@ -7,7 +7,7 @@ Este método permite crear una intención de pago mediante un botón de pago y e
 
 **Importante**: En el parámetro **“paymentintent[intent]”** debe enviar el valor **“sale”**.
 
-URL: `https://test.mpandco.com/api/payment-intent/.json`
+URL: `api/payment-intent/.json`
 
 Método HTTP: `POST`
 
@@ -126,7 +126,7 @@ Al abrir **"approval_url"** el cliente deberá ingresar con sus credenciales y a
 
 Ejecuta una intención de pago de tipo "sale" autorizada por un cliente y abona el dinero al comercio.
 
-URL: `https://test.mpandco.com/api/payment-intent/execute/sale.json`
+URL: `api/payment-intent/execute/sale.json`
 
 Método HTTP: `POST`
 

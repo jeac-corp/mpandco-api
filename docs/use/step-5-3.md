@@ -7,7 +7,7 @@ Este método permite crear una intención de pago mediante un sistema de factura
 
 **Importante**: En el parámetro **“paymentintent[intent]”** debe enviar el valor **“request”** y el parámetro **“paymentintent[recipient]”** es requerido, debe enviar el nombre del usuario destinatario que realizará el pago.
 
-URL: `https://test.mpandco.com/api/payment-intent/.json`
+URL: `api/payment-intent/.json`
 
 Método HTTP: `POST`
 
@@ -131,7 +131,7 @@ Ejemplo de respuesta (200):
 
 Ejecuta una intención de pago de tipo "request" autorizada por un cliente y abona el dinero al comercio.
 
-URL: `https://test.mpandco.com/api/payment-intent/request.json`
+URL: `api/payment-intent/request.json`
 
 Método HTTP: `POST`
 

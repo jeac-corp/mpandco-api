@@ -16,8 +16,8 @@
 5.4. [Ejecutar intención de pago (API de facturación).]({{site.baseurl}}/docs/use/step-5-3.html#step54)<br/>
 5.5. [Obtener intención de pago.]({{site.baseurl}}/docs/use/step-5-5.html)<br/>
 5.6. [Obtener historial de las intenciónes de pagos.]({{site.baseurl}}/docs/use/step-5-6.html)<br/>
-5.7. Obtener historial de los pagos.<br/>
-5.8. Modelos de respuesta<br/>
+5.7. [Obtener historial de los pagos.]({{site.baseurl}}/docs/use/step-5-7.html)<br/>
+5.8. [Modelos de respuesta]({{site.baseurl}}/docs/use/step-5-8.html)<br/>
 6. Sandbox para desarrolladores
 7. Recomendaciones
 8. Condiciones de uso

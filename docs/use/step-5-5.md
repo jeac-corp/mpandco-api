@@ -89,15 +89,15 @@ Ejemplo de respuesta (200):
        ],
        "_links":{
          "self":{
-             "href":"http://app.mpandco.com/api/payment-intent/show?id=03b9f66c-fefb-11e8-a647-b62cbc289574",
+             "href":"http://test.mpandco.com/api/payment-intent/show?id=03b9f66c-fefb-11e8-a647-b62cbc289574",
              "method":"GET"
           },
           "execute":{
-            "href":"http://app.mpandco.com/api/payment-intent/execute/sale?id=03b9f66c-fefb-11e8-a647-b62cbc289574",
+            "href":"http://test.mpandco.com/api/payment-intent/execute/sale?id=03b9f66c-fefb-11e8-a647-b62cbc289574",
             "method":"POST"
           },
           "approval_url":{
-             "href":"http://app.mpandco.com/p/express-checkout/03b9f66c-fefb-11e8-a647-b62cbc289574/1",
+             "href":"http://test.mpandco.com/p/express-checkout/03b9f66c-fefb-11e8-a647-b62cbc289574/1",
              "method":"GET"
           }
        }
