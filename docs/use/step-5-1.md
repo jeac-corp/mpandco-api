@@ -166,7 +166,7 @@ Puede generar una intención de pago y especificar cuentas donde desee distribui
                 "0": {
                     "digitalAccountDestination": "demo05",
                     "amount": {
-                        "total": "20"
+                        "total": "100"
                     },
                     "description": "Compra por Amazon",
                     "invoiceNumber": "F00015",
@@ -179,7 +179,7 @@ Puede generar una intención de pago y especificar cuentas donde desee distribui
                     "distributions": [
                         {
                             "digitalAccountDestination": "demo05",
-                            "amount": "2500.50",
+                            "amount": "30",
                             "description": "Comision del TV"
                         }
                     ]

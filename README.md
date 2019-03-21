@@ -27,6 +27,7 @@ Este manual de integración tiene como finalidad facilitar a los departamentos d
 5.6. [Obtener historial de las intenciónes de pagos.]({{site.baseurl}}/docs/use/step-5-6.html)<br/>
 5.7. [Obtener historial de los pagos.]({{site.baseurl}}/docs/use/step-5-7.html)<br/>
 5.8. [Modelos de respuesta]({{site.baseurl}}/docs/use/step-5-8.html)<br/>
+5.9. [Anular una intención de pago ejecutada]({{site.baseurl}}/docs/use/step-5-9.html)<br/>
 6. [Sandbox para desarrolladores.]({{site.baseurl}}/docs/step-6.html)
 7. [Recomendaciones.]({{site.baseurl}}/docs/recommendations.html)
 8. [Condiciones de uso.]({{site.baseurl}}/docs/terms.html)
