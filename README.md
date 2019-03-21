@@ -61,6 +61,15 @@ Este manual de integración tiene como finalidad facilitar a los departamentos d
     - Nueva API para listar el historial de las intenciones de pago "GET /api/payment-intent/.json".
     </td>
   </tr>
+  <tr>
+    <td>21-03-2019</td>
+    <td>1.3</td>
+    <td>
+    - Se agrego API de anulación de intención de pago "/api/payment-intent/cancel.json".<br/>
+    - Intención de pago: Ahora no se generan solicitudes sino se completa el proceso..<br/>
+    - Intención de pago: se mejoro proceso de distribución.
+    </td>
+  </tr>
   </tbody>
 </table>
 
