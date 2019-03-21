@@ -3,7 +3,7 @@
 <div id="step59"></div>
 ## 5.9. Anular una intención de pago ejecutada.
 
-Este método permite anular una intención de pagó que fue ejecutada siempre y cuando fue ejecutada en un plazo menor a 24 horas, luego de este tiempo **no podrá ser anulada**.
+Este método permite anular una intención de pagó, siempre y cuando haya sido fue ejecutada en un plazo menor a 24 horas, luego de este tiempo **no podrá ser anulada**.
 
 **Importante**: La URL de anulación la puede obtener en **“_links.cancel.href”** del objeto que le retorna la API al generar la intención de pago.
 

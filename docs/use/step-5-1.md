@@ -147,11 +147,12 @@ Al abrir **"approval_url"** el cliente deberá ingresar con sus credenciales y a
 
 ![image020.png]({{site.baseurl}}/images/image020.png)
 
-## 5.1.1 Generar intención de pago y distribuir fondos al ejecutarla (Botón de pago).
+<div id="step511"></div>
+## 5.1.1 Generar intención de pago y distribuir fondos (Botón de pago).
 
 Puede generar una intención de pago y especificar cuentas donde desee distribuir el monto recibido, para esto debe especificarlas en el campo "distributions" (ver el ejemplo), una vez ejecute la intención de pago, automaticamente se distribuye el monto.
 
-**Importante**: En las cuentas electrónicas para la distribución deben ser autorizadas previamente en su aplicación.
+**Importante** Las cuentas electrónicas para la distribución deben ser autorizadas previamente en su aplicación.
 
 ### Ejemplo de data con distribución:
 

@@ -20,14 +20,15 @@ Este manual de integración tiene como finalidad facilitar a los departamentos d
 
 5. Uso del API mPandco<br/>
 5.1. [Generar intención de pago (Botón de pago).]({{site.baseurl}}/docs/use/step-5-1.html#step51)<br/>
+5.1.1 [Generar intención de pago y distribuir fondos (Botón de pago).]({{site.baseurl}}/docs/use/step-5-1.html#step511)<br/>
 5.2. [Ejecutar intención de pago (Botón de pago).]({{site.baseurl}}/docs/use/step-5-1.html#step52)<br/>
 5.3. [Generar intención de pago (API de facturación).]({{site.baseurl}}/docs/use/step-5-3.html#step53)<br/>
 5.4. [Ejecutar intención de pago (API de facturación).]({{site.baseurl}}/docs/use/step-5-3.html#step54)<br/>
 5.5. [Obtener intención de pago.]({{site.baseurl}}/docs/use/step-5-5.html)<br/>
 5.6. [Obtener historial de las intenciónes de pagos.]({{site.baseurl}}/docs/use/step-5-6.html)<br/>
 5.7. [Obtener historial de los pagos.]({{site.baseurl}}/docs/use/step-5-7.html)<br/>
-5.8. [Modelos de respuesta]({{site.baseurl}}/docs/use/step-5-8.html)<br/>
-5.9. [Anular una intención de pago ejecutada]({{site.baseurl}}/docs/use/step-5-9.html)<br/>
+5.8. [Modelos de respuesta.]({{site.baseurl}}/docs/use/step-5-8.html)<br/>
+5.9. [Anular una intención de pago ejecutada.]({{site.baseurl}}/docs/use/step-5-9.html)<br/>
 6. [Sandbox para desarrolladores.]({{site.baseurl}}/docs/step-6.html)
 7. [Recomendaciones.]({{site.baseurl}}/docs/recommendations.html)
 8. [Condiciones de uso.]({{site.baseurl}}/docs/terms.html)
