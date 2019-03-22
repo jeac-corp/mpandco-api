@@ -179,7 +179,7 @@ Puede generar una intención de pago y especificar cuentas donde desee distribui
                     },
                     "distributions": [
                         {
-                            "digitalAccountDestination": "demo05",
+                            "digitalAccountDestination": "pizzaexpress",
                             "amount": "30",
                             "description": "Comision del TV"
                         }
