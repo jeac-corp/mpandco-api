@@ -27,11 +27,13 @@ Este manual de integración tiene como finalidad facilitar a los departamentos d
 5.6. [Obtener historial de las intenciónes de pagos.]({{site.baseurl}}/docs/use/step-5-6.html)<br/>
 5.7. [Obtener historial de los pagos.]({{site.baseurl}}/docs/use/step-5-7.html)<br/>
 5.8. [Modelos de respuesta]({{site.baseurl}}/docs/use/step-5-8.html)<br/>
-6. [Sandbox para desarrolladores.]({{site.baseurl}}/docs/step-6.html)
-7. [Recomendaciones.]({{site.baseurl}}/docs/recommendations.html)
-8. [Condiciones de uso.]({{site.baseurl}}/docs/terms.html)
-
+6. [Sandbox para desarrolladores.]({{site.baseurl}}/docs/step-6.html)<br/>
+7. [Recomendaciones.]({{site.baseurl}}/docs/recommendations.html)<br/>
+8. [Condiciones de uso.]({{site.baseurl}}/docs/terms.html)<br/>
+9. <a href="#step9">SDK para desarrolladores</a><br/>
+<br/>
 <div id="step1"></div>
+
 ## 1. Histórico de cambios
 <table>
   <thead>
@@ -65,6 +67,7 @@ Este manual de integración tiene como finalidad facilitar a los departamentos d
 </table>
 
 <div id="step3"></div>
+
 ## 3. Requisitos
 El comercio debe cumplir con los siguientes requisitos para poder recibir pagos a través de mPandco:
 
@@ -74,6 +77,11 @@ El comercio debe cumplir con los siguientes requisitos para poder recibir pagos 
 - Alojamiento en servidor propio o terceros.
 
 La integración con **mPandco** se realiza mediante su **API** basado en métodos **RESTful** bajo **HTTPS**.
+
+<div id="step9"></div>
+
+## 9. SDK para desarrolladores
+- [PHP >= 5.6](https://github.com/jeac-corp/mpandco-php-sdk)
 
 <hr/>
 

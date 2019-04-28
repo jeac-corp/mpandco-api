@@ -15,7 +15,7 @@ Documentación completa de la API:
 ### Ejemplo de petición:
 
     curl -X GET \
-      'https://test.mpandco.com/api/payment /.json' \
+      'https://test.mpandco.com/api/payment/.json' \
       -H 'authorization: Bearer OAUTH-TOKEN'
 
 ### Respuesta:
