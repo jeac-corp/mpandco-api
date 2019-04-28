@@ -5,13 +5,13 @@
 
 Si deseas recibir pagos por internet, a través de tu dispositivo móvil, página web o sistema de facturación, puedes apoyarte con **mPandco** para lograr tus objetivos.
 
-Este manual de integración tiene como finalidad facilitar a los departamentos de tecnologías de los comercios y a desarrolladores independientes a integrar sus soluciones web con la plataforma de pagos mPandco.
+Este manual de integración tiene como finalidad facilitar a los departamentos de tecnologías de los comercios y a desarrolladores independientes a integrar sus soluciones web con la plataforma de pagos mPandco.<br/>
 
-[Acceder a la documentación online.](https://jeac-corp.github.io/mpandco-api/)
-
+[Acceder a la documentación online.](https://jeac-corp.github.io/mpandco-api/)<br/>
+<br/>
 ## Contenido
-1. <a href="#step1">Histórico de cambios</a>
-2. <a href="#step2">Introducción</a>
+1. <a href="#step1">Histórico de cambios</a><br/>
+2. <a href="#step2">Introducción</a><br/>
 3. <a href="#step3">Requisitos</a><br/>
 4. Creación de llaves.<br/>
 4.1. [Registro de aplicaciones oAuth2.]({{site.baseurl}}/docs/keys/step-4-1.html)<br/>
@@ -20,18 +20,20 @@ Este manual de integración tiene como finalidad facilitar a los departamentos d
 
 5. Uso del API mPandco<br/>
 5.1. [Generar intención de pago (Botón de pago).]({{site.baseurl}}/docs/use/step-5-1.html#step51)<br/>
+5.1.1 [Generar intención de pago y distribuir fondos (Botón de pago).]({{site.baseurl}}/docs/use/step-5-1.html#step511)<br/>
 5.2. [Ejecutar intención de pago (Botón de pago).]({{site.baseurl}}/docs/use/step-5-1.html#step52)<br/>
 5.3. [Generar intención de pago (API de facturación).]({{site.baseurl}}/docs/use/step-5-3.html#step53)<br/>
 5.4. [Ejecutar intención de pago (API de facturación).]({{site.baseurl}}/docs/use/step-5-3.html#step54)<br/>
 5.5. [Obtener intención de pago.]({{site.baseurl}}/docs/use/step-5-5.html)<br/>
 5.6. [Obtener historial de las intenciónes de pagos.]({{site.baseurl}}/docs/use/step-5-6.html)<br/>
 5.7. [Obtener historial de los pagos.]({{site.baseurl}}/docs/use/step-5-7.html)<br/>
-5.8. [Modelos de respuesta]({{site.baseurl}}/docs/use/step-5-8.html)<br/>
+5.8. [Modelos de respuesta.]({{site.baseurl}}/docs/use/step-5-8.html)<br/>
+5.9. [Anular una intención de pago ejecutada.]({{site.baseurl}}/docs/use/step-5-9.html)<br/>
 6. [Sandbox para desarrolladores.]({{site.baseurl}}/docs/step-6.html)<br/>
 7. [Recomendaciones.]({{site.baseurl}}/docs/recommendations.html)<br/>
 8. [Condiciones de uso.]({{site.baseurl}}/docs/terms.html)<br/>
 9. <a href="#step9">SDK para desarrolladores</a><br/>
-<br/>
+
 <div id="step1"></div>
 
 ## 1. Histórico de cambios
@@ -61,6 +63,15 @@ Este manual de integración tiene como finalidad facilitar a los departamentos d
     - Se agrego API de movimientos de pagos "/api/payment/.json".<br/>
     - Se agrego "relatedResources" a la intencion de pago para facilitar las conciliaciones.<br/>
     - Nueva API para listar el historial de las intenciones de pago "GET /api/payment-intent/.json".
+    </td>
+  </tr>
+  <tr>
+    <td>21-03-2019</td>
+    <td>1.3</td>
+    <td>
+    - Se agrego API de anulación de intención de pago "/api/payment-intent/cancel.json".<br/>
+    - Intención de pago: Ahora no se generan solicitudes sino se completa el proceso..<br/>
+    - Intención de pago: se mejoro proceso de distribución.
     </td>
   </tr>
   </tbody>

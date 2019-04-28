@@ -14,6 +14,32 @@ Método HTTP: `POST`
 Documentación completa de la API:
 [Ir a la documentación](https://test.mpandco.com/docs#post--api-payment-intent-.json)
 
+### Datos mínimos a enviar:
+
+    {
+        "paymentintent": {
+            "intent": "sale",
+            "redirectUrls": {
+                "returnUrl": "http://localhost:5000/payments/ExecutePayment.php?success=true&carId=200",
+                "cancelUrl": "http://localhost:5000/payments/ExecutePayment.php?success=false&carId=200"
+            },
+            "transactions": {
+                "0": {
+                    "amount": {
+                        "total": "20"
+                    },
+                    "description": "Compra por eBay",
+                    "items": {
+                        "0": {
+                            "name": "telefono",
+                            "price": "7.5"
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 ### Ejemplo de petición:
 
     curl -X POST \
@@ -120,6 +146,48 @@ Al abrir **"approval_url"** el cliente deberá ingresar con sus credenciales y a
 ![image018.png]({{site.baseurl}}/images/image018.png)
 
 ![image020.png]({{site.baseurl}}/images/image020.png)
+
+<div id="step511"></div>
+## 5.1.1 Generar intención de pago y distribuir fondos (Botón de pago).
+
+Puede generar una intención de pago y especificar cuentas donde desee distribuir el monto recibido, para esto debe especificarlas en el campo "distributions" (ver el ejemplo), una vez ejecute la intención de pago, automaticamente se distribuye el monto.
+
+**Importante** Las cuentas electrónicas para la distribución deben ser autorizadas previamente en su aplicación.
+
+### Ejemplo de data con distribución:
+
+    {
+        "paymentintent": {
+            "intent": "sale",
+            "redirectUrls": {
+                "returnUrl": "http://localhost:5000/payments/ExecutePayment.php?success=true&carId=200",
+                "cancelUrl": "http://localhost:5000/payments/ExecutePayment.php?success=false&carId=200"
+            },
+            "transactions": {
+                "0": {
+                    "digitalAccountDestination": "demo05",
+                    "amount": {
+                        "total": "100"
+                    },
+                    "description": "Compra por Amazon",
+                    "invoiceNumber": "F00015",
+                    "items": {
+                        "0": {
+                            "name": "telefono",
+                            "price": "7.5"
+                        }
+                    },
+                    "distributions": [
+                        {
+                            "digitalAccountDestination": "pizzaexpress",
+                            "amount": "30",
+                            "description": "Comision del TV"
+                        }
+                    ]
+                }
+            }
+        }
+    }
 
 <div id="step52"></div>
 ## 5.2. Ejecutar intención de pago (Botón de pago).
