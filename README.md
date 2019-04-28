@@ -70,7 +70,7 @@ Este manual de integración tiene como finalidad facilitar a los departamentos d
     <td>1.3</td>
     <td>
     - Se agrego API de anulación de intención de pago "/api/payment-intent/cancel.json".<br/>
-    - Intención de pago: Ahora no se generan solicitudes sino se completa el proceso..<br/>
+    - Intención de pago: Ahora no se generan solicitudes sino se completa el proceso.<br/>
     - Intención de pago: se mejoro proceso de distribución.
     </td>
   </tr>
@@ -78,7 +78,8 @@ Este manual de integración tiene como finalidad facilitar a los departamentos d
     <td>28-04-2019</td>
     <td>1.4</td>
     <td>
-    - Se agrego uso obligatorio de grant_type "urn:client_apps"
+    - Se agrego uso obligatorio de grant_type "urn:client_apps".<br/>
+    - Se agrego enlace a SDK de PHP.
     </td>
   </tr>
   </tbody>
