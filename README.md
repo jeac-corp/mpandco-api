@@ -74,6 +74,13 @@ Este manual de integración tiene como finalidad facilitar a los departamentos d
     - Intención de pago: se mejoro proceso de distribución.
     </td>
   </tr>
+  <tr>
+    <td>28-04-2019</td>
+    <td>1.4</td>
+    <td>
+    - Se agrego uso obligatorio de grant_type "urn:client_apps"
+    </td>
+  </tr>
   </tbody>
 </table>
 

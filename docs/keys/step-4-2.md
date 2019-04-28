@@ -33,7 +33,7 @@ POST https://test.mpandco.com/oauth/v2/token
 <p>String</p>
 </td>
 <td width="409">
-<p><strong>Requerido.</strong> El id de mPandco que recibi&oacute; para su cuenta electr&oacute;nica de mPandco.</p>
+<p><strong>Requerido.</strong> El id de mPandco que recibi&oacute; para su aplicación oAuth2 de mPandco.</p>
 </td>
 </tr>
 <tr>
@@ -44,7 +44,7 @@ POST https://test.mpandco.com/oauth/v2/token
 <p>String</p>
 </td>
 <td width="409">
-<p><strong>Requerido.</strong> La clave secreta que registr&oacute; para su cuenta mPandco.</p>
+<p><strong>Requerido.</strong> La clave secreta que registr&oacute; para su aplicación oAuth2 de mPandco.</p>
 </td>
 </tr>
 <tr>
@@ -55,29 +55,7 @@ POST https://test.mpandco.com/oauth/v2/token
 <p>String</p>
 </td>
 <td width="409">
-<p><strong>Requerido.</strong> Tipo de token solicitado (password o refresh_token).</p>
-</td>
-</tr>
-<tr>
-<td width="132">
-<p>username</p>
-</td>
-<td width="125">
-<p>String</p>
-</td>
-<td width="409">
-<p><strong>Requerido: </strong>Nombre de usuario de su cuenta mPandco.</p>
-</td>
-</tr>
-<tr>
-<td width="132">
-<p>password</p>
-</td>
-<td width="125">
-<p>String</p>
-</td>
-<td width="409">
-<p><strong>Requerido: </strong>Clave de acceso de su cuenta mPandco.</p>
+<p><strong>Requerido.</strong> Tipo de token solicitado (urn:client_apps o refresh_token).</p>
 </td>
 </tr>
 </tbody>
@@ -87,7 +65,8 @@ POST https://test.mpandco.com/oauth/v2/token
 
     curl -X POST https://test.mpandco.com/oauth/v2/token \
     -F client_id=LLAVE_CLIENTE \
-    -F client_secret=LLAVE_SECRETA
+    -F client_secret=LLAVE_SECRETA \
+    -F grant_type=urn:client_apps
 
 ### Respuesta:
 Por defecto, la respuesta toma la siguiente forma:
