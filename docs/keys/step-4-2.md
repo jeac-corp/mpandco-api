@@ -87,10 +87,7 @@ POST https://test.mpandco.com/oauth/v2/token
 
     curl -X POST https://test.mpandco.com/oauth/v2/token \
     -F client_id=LLAVE_CLIENTE \
-    -F client_secret=LLAVE_SECRETA \
-    -F grant_type=password \
-    -F username=TUUSUARIO \
-    -F password=SUCLAVE
+    -F client_secret=LLAVE_SECRETA
 
 ### Respuesta:
 Por defecto, la respuesta toma la siguiente forma:
