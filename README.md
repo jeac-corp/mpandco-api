@@ -12,30 +12,31 @@ Este manual de integración tiene como finalidad facilitar a los departamentos d
 ## Contenido
 1. <a href="#step1">Histórico de cambios</a><br/>
 2. <a href="#step2">Introducción</a><br/>
-3. <a href="#step3">Requisitos</a><br/>
-4. Creación de llaves.<br/>
-4.1. [Registro de aplicaciones oAuth2.]({{site.baseurl}}/docs/keys/step-4-1.html)<br/>
-4.2. [Solicitud de token de acceso.]({{site.baseurl}}/docs/keys/step-4-2.html)<br/>
-4.3. [Usar token de acceso para acceder a la API.]({{site.baseurl}}/docs/keys/step-4-3.html)<br/>
+3. [Condiciones de uso.]({{site.baseurl}}/docs/terms.html)<br/>
+4. Requisitos.<br/>
+4.1. [Sandbox para desarrolladores.]({{site.baseurl}}/docs/step-6.html)<br/>
+4.2. [Requisitos para producción.]({{site.baseurl}}/docs/step-6.html#step42)<br/>
+5. Creación de llaves.<br/>
+5.1. [Registro de aplicaciones oAuth2.]({{site.baseurl}}/docs/keys/step-4-1.html)<br/>
+5.2. [Solicitud de token de acceso.]({{site.baseurl}}/docs/keys/step-4-2.html)<br/>
+5.3. [Usar token de acceso para acceder a la API.]({{site.baseurl}}/docs/keys/step-4-3.html)<br/>
 
-5. Uso del API mPandco<br/>
-5.1. [Generar intención de pago (Botón de pago).]({{site.baseurl}}/docs/use/step-5-1.html#step51)<br/>
-5.1.1 [Generar intención de pago y distribuir fondos (Botón de pago).]({{site.baseurl}}/docs/use/step-5-1.html#step511)<br/>
-5.2. [Ejecutar intención de pago (Botón de pago).]({{site.baseurl}}/docs/use/step-5-1.html#step52)<br/>
-5.3. [Generar intención de pago (API de facturación).]({{site.baseurl}}/docs/use/step-5-3.html#step53)<br/>
-5.4. [Ejecutar intención de pago (API de facturación).]({{site.baseurl}}/docs/use/step-5-3.html#step54)<br/>
-5.5. [Obtener intención de pago.]({{site.baseurl}}/docs/use/step-5-5.html)<br/>
-5.6. [Obtener historial de las intenciónes de pagos.]({{site.baseurl}}/docs/use/step-5-6.html)<br/>
-5.7. [Obtener historial de los pagos.]({{site.baseurl}}/docs/use/step-5-7.html)<br/>
-5.8. [Modelos de respuesta.]({{site.baseurl}}/docs/use/step-5-8.html)<br/>
-5.9. [Anular una intención de pago ejecutada.]({{site.baseurl}}/docs/use/step-5-9.html)<br/>
-6. [Sandbox para desarrolladores.]({{site.baseurl}}/docs/step-6.html)<br/>
+6. Uso del API mPandco<br/>
+6.1. [Generar intención de pago (Botón de pago).]({{site.baseurl}}/docs/use/step-5-1.html#step51)<br/>
+6.1.1 [Generar intención de pago y distribuir fondos (Botón de pago).]({{site.baseurl}}/docs/use/step-5-1.html#step511)<br/>
+6.2. [Ejecutar intención de pago (Botón de pago).]({{site.baseurl}}/docs/use/step-5-1.html#step52)<br/>
+6.3. [Generar intención de pago (API de facturación).]({{site.baseurl}}/docs/use/step-5-3.html#step53)<br/>
+6.4. [Ejecutar intención de pago (API de facturación).]({{site.baseurl}}/docs/use/step-5-3.html#step54)<br/>
+6.5. [Obtener intención de pago.]({{site.baseurl}}/docs/use/step-5-5.html)<br/>
+6.6. [Obtener historial de las intenciónes de pagos.]({{site.baseurl}}/docs/use/step-5-6.html)<br/>
+6.7. [Obtener historial de los pagos.]({{site.baseurl}}/docs/use/step-5-7.html)<br/>
+6.8. [Modelos de respuesta.]({{site.baseurl}}/docs/use/step-5-8.html)<br/>
+6.9. [Anular una intención de pago ejecutada.]({{site.baseurl}}/docs/use/step-5-9.html)<br/>
 7. [Recomendaciones.]({{site.baseurl}}/docs/recommendations.html)<br/>
-8. [Condiciones de uso.]({{site.baseurl}}/docs/terms.html)<br/>
-9. <a href="#step9">SDK para desarrolladores</a><br/>
+8. SDK para desarrolladores<br/>
+8.1. [PHP >= 5.6](https://github.com/jeac-corp/mpandco-php-sdk)
 
 <div id="step1"></div>
-
 ## 1. Histórico de cambios
 <table>
   <thead>
@@ -84,23 +85,6 @@ Este manual de integración tiene como finalidad facilitar a los departamentos d
   </tr>
   </tbody>
 </table>
-
-<div id="step3"></div>
-
-## 3. Requisitos
-El comercio debe cumplir con los siguientes requisitos para poder recibir pagos a través de mPandco:
-
-- Código de afiliación para el registro del comercio. Este código se obtiendo a través del cuerpo de ventas de mPandco.
-- Dominio propio.
-- Código fuente propio o acceso al mismo.
-- Alojamiento en servidor propio o terceros.
-
-La integración con **mPandco** se realiza mediante su **API** basado en métodos **RESTful** bajo **HTTPS**.
-
-<div id="step9"></div>
-
-## 9. SDK para desarrolladores
-- [PHP >= 5.6](https://github.com/jeac-corp/mpandco-php-sdk)
 
 <hr/>
 

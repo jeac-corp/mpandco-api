@@ -1,7 +1,7 @@
 [<- Regresar a la documentación]({{site.baseurl}}/)
 
 <div id="step6"></div>
-## 6. Sandbox para desarrolladores.
+## 4.2 Sandbox para desarrolladores.
 
 Para interactuar con el **API de mPandco** bajo ambiente de prueba se cuenta con un ambiente separado de productivo, es importante que el cliente realice todas las pruebas necesarias antes de promover a productivo, para tener acceso al **Sandbox** debe seguir los siguientes pasos:
 
@@ -32,3 +32,16 @@ Toda consulta desde el **Sandbox** debe apuntar a la url https://test.mpandco.co
 - Enlace de **Productivo**: https://app.mpandco.com
 
 **IMPORTANTE**: Por defecto en el _Sandbox_ la opciones de integraciones de la API para botones de pago y sistemas de facturación estarán habilitadas con el fin de que pueda realizar todas las pruebas concernientes a la integración en su aplicación, sin embargo para activar las llaves en productivo debe contactarse con atencionalcliente@mpandco.com y allí le indicaran los requisitos de la activación.
+
+
+<div id="step42"></div>
+
+## 4.2 Requisitos para producciónn
+El comercio debe cumplir con los siguientes requisitos para poder recibir pagos a través de mPandco:
+
+- Código de afiliación para el registro del comercio. Este código se obtiendo a través del cuerpo de ventas de mPandco. 
+- Dominio propio.
+- Código fuente propio o acceso al mismo.
+- Alojamiento en servidor propio o terceros.
+
+La integración con **mPandco** se realiza mediante su **API** basado en métodos **RESTful** bajo **HTTPS**.
