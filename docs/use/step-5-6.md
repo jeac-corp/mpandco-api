@@ -1,7 +1,7 @@
 [<- Regresar a la documentación]({{site.baseurl}}/)
 
 <div id="step56"></div>
-## 5.6. Obtener historial de las intenciónes de pagos.
+## 6.6. Obtener historial de las intenciónes de pagos.
 
 Este método permite obtener un paginador con el historial de las intenciones de pago generadas.
 

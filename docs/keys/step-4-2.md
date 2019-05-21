@@ -1,7 +1,7 @@
 [<- Regresar a la documentación]({{site.baseurl}}/)
 
 <div id="step42"></div>
-## 4.2. Solicitud de token de acceso.
+## 5.2. Solicitud de token de acceso.
 
 El proceso de autenticación se basa en el protocolo [OAuth2](https://oauth.net/2/) el cual funciona generando un único token de acceso principal, por medidas de seguridad es importante realizar la solicitud del token principal una sola vez donde usara el "username" y "password" de la cuenta, posteriormente debe usar el "token_refresh" para renovar cada token y evitar enviar datos sensibles en cada petición (por favor consultar el flujo de autenticación en oAuth2).
 

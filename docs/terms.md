@@ -1,7 +1,7 @@
 [<- Regresar a la documentación]({{site.baseurl}}/)
 
 <div id="step8"></div>
-## 8. Condiciones de uso.
+## 3. Condiciones de uso.
 
 1. El portal debe tener instalado certificado de seguridad **(SSL)**.
 

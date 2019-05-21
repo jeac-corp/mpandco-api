@@ -1,7 +1,7 @@
 [<- Regresar a la documentación]({{site.baseurl}}/)
 
 <div id="step58"></div>
-## 5.8. Modelos de respuesta.
+## 6.8. Modelos de respuesta.
 
 A continuación se muestra ejemplo de los modelos de respuesta de la API en formato JSON, el objeto de tipo **"Paginator"** se utiliza para las listas.
 

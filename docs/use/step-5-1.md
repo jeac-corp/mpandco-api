@@ -1,7 +1,7 @@
 [<- Regresar a la documentación]({{site.baseurl}}/)
 
 <div id="step51"></div>
-## 5.1. Generar intención de pago (Botón de pago).
+## 6.1. Generar intención de pago (Botón de pago).
 
 Este método permite crear una intención de pago mediante un botón de pago y enviársela a un cliente.
 
@@ -148,7 +148,7 @@ Al abrir **"approval_url"** el cliente deberá ingresar con sus credenciales y a
 ![image020.png]({{site.baseurl}}/images/image020.png)
 
 <div id="step511"></div>
-## 5.1.1 Generar intención de pago y distribuir fondos (Botón de pago).
+## 6.1.1 Generar intención de pago y distribuir fondos (Botón de pago).
 
 Puede generar una intención de pago y especificar cuentas donde desee distribuir el monto recibido, para esto debe especificarlas en el campo "distributions" (ver el ejemplo), una vez ejecute la intención de pago, automaticamente se distribuye el monto.
 
@@ -190,7 +190,7 @@ Puede generar una intención de pago y especificar cuentas donde desee distribui
     }
 
 <div id="step52"></div>
-## 5.2. Ejecutar intención de pago (Botón de pago).
+## 6.2. Ejecutar intención de pago (Botón de pago).
 
 Ejecuta una intención de pago de tipo "sale" autorizada por un cliente y abona el dinero al comercio.
 

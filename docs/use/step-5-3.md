@@ -1,7 +1,7 @@
 [<- Regresar a la documentación]({{site.baseurl}}/)
 
 <div id="step53"></div>
-## 5.3. Generar intención de pago (API de facturación).
+## 6.3. Generar intención de pago (API de facturación).
 
 Este método permite crear una intención de pagó mediante un sistema de facturación para solicitar a un cliente.
 
@@ -155,7 +155,7 @@ Ejemplo de respuesta (200):
 **b) Mediante el teclado numérico de su caja**: Cada transacción retornará una lista con de tokens para pagar (**pay_tokens**), usted deberá mostrar una lista de los tokens para permitir seleccionar el origen de los fondos del cliente con un campo numérico de **4 dígitos**, donde el cliente ingresará su pin de operaciones para autorizar el pago, al tener ambos datos deberá ejecutar el pago llamando el enlace **"_links.execute"**, tal como se indica en el paso [5.4.]({{site.baseurl}}/docs/use/step-5-3.html#step54)
 
 <div id="step54"></div>
-## 5.4. Ejecutar intención de pago (API de facturación).
+## 6.4. Ejecutar intención de pago (API de facturación).
 
 Ejecuta una intención de pago de tipo "request" autorizada por un cliente y abona el dinero al comercio.
 

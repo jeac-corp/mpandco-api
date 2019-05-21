@@ -1,7 +1,7 @@
 [<- Regresar a la documentación]({{site.baseurl}}/)
 
 <div id="step42"></div>
-## 4.3. Usar token de acceso para acceder a la API.
+## 5.3. Usar token de acceso para acceder a la API.
 
 Luego de generar el token de acceso debe pasar el "access_token" encabezado de Autorización.
 

@@ -1,7 +1,7 @@
 [<- Regresar a la documentación]({{site.baseurl}}/)
 
 <div id="step55"></div>
-## 5.5. Obtener intención de pago.
+## 6.5. Obtener intención de pago.
 
 Este método permite obtener una intención de pago previamente generada.
 

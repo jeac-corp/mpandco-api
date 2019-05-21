@@ -1,7 +1,7 @@
 [<- Regresar a la documentación]({{site.baseurl}}/)
 
 <div id="step57"></div>
-## 5.7. Obtener historial de los pagos.
+## 6.7. Obtener historial de los pagos.
 
 Este método permite obtener un paginador con el historial de los pagos.
 

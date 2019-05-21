@@ -1,7 +1,7 @@
 [<- Regresar a la documentación]({{site.baseurl}}/)
 
 <div id="step59"></div>
-## 5.9. Anular una intención de pago ejecutada.
+## 6.9. Anular una intención de pago ejecutada.
 
 Este método permite anular una intención de pagó, siempre y cuando haya sido fue ejecutada en un plazo menor a 24 horas, luego de este tiempo **no podrá ser anulada**.
 
