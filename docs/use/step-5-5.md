@@ -81,12 +81,12 @@ Ejemplo de respuesta (200):
                            “ref”: “P1901293671246”
                      }
 
-              },
-             "pay_tokens":[
-
-            ]
+              }
          }
        ],
+       "pay_tokens":[
+
+      ],
        "_links":{
          "self":{
              "href":"http://test.mpandco.com/api/payment-intent/show?id=03b9f66c-fefb-11e8-a647-b62cbc289574",

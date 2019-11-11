@@ -113,11 +113,11 @@ Ejemplo de respuesta (200):
                 }
              ],
              "description":"Compra por eBay",
-             "invoice_number":"F00015",
-             "pay_tokens":[
-
-             ]
+             "invoice_number":"F00015"
           }
+       ],
+       "pay_tokens":[
+
        ],
        "_links":{
           "self":{
@@ -275,11 +275,11 @@ Ejemplo de respuesta (200):
                            “id”: “0368dbf8-2405-11e9-865d-5254008a2539”,
                            “ref”: “P1901293671246”
                      }
-              },
-             "pay_tokens":[
-
-             ]
+              }
          }
+       ],
+       "pay_tokens":[
+
        ],
        "_links":{
          "self":{

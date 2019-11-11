@@ -119,13 +119,13 @@ Ejemplo de respuesta (200):
                    }
                 }
              },
-             "pay_tokens":[  
-
-             ],
              "distributions":[  
 
              ]
           }
+       ],
+       "pay_tokens":[  
+
        ],
        "_links":{  
           "self":{  

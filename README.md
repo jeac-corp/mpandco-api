@@ -83,6 +83,14 @@ Este manual de integración tiene como finalidad facilitar a los departamentos d
     - Se agrego enlace a SDK de PHP.
     </td>
   </tr>
+  <tr>
+    <td>10-11-2019</td>
+    <td>1.5</td>
+    <td>
+    - Se actualiza estructura de la intención de pago<br/>
+    - Se llama los enlaces asignados en la intencion de pago de tipo "request".
+    </td>
+  </tr>
   </tbody>
 </table>
 
