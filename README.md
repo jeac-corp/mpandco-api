@@ -32,6 +32,7 @@ Este manual de integración tiene como finalidad facilitar a los departamentos d
 6.7. [Obtener historial de los pagos.]({{site.baseurl}}/docs/use/step-5-7.html)<br/>
 6.8. [Modelos de respuesta.]({{site.baseurl}}/docs/use/step-5-8.html)<br/>
 6.9. [Anular una intención de pago ejecutada.]({{site.baseurl}}/docs/use/step-5-9.html)<br/>
+6.10. [Generar registro multipagos (Dispersion).]({{site.baseurl}}/docs/use/step-5-10.html)<br/>
 7. [Recomendaciones.]({{site.baseurl}}/docs/recommendations.html)<br/>
 8. SDK para desarrolladores<br/>
 8.1. [PHP >= 5.6](https://github.com/jeac-corp/mpandco-php-sdk)
