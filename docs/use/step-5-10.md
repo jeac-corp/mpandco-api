@@ -44,7 +44,7 @@ Parametros: `type` = `DISPERSION`
           }
       }'
 
-### Respuesta
+### Respuesta (Codigo 200)
   
     {
       "ref":"MP19122800001",
@@ -53,3 +53,24 @@ Parametros: `type` = `DISPERSION`
     }
 
 **Importante**: Debe verificar el estado de la respuesta sea **"APPROVED"**
+
+### Respuesta (Error 400)
+
+    { 
+      "code":400,
+      "message":"Validation Failed",
+      "errors":
+        {
+          "errors":["No se ha encontrado un banco para el numero de cuenta ingresado"],
+          "children":
+            { 
+              "reference":{},
+              "nameAccount":{},
+              "identificationNumber":{},
+              "amount":{},
+              "bankAccount":{},
+              "phone":{},
+              "email":{}
+            }
+        }
+    }
