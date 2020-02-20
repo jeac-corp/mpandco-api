@@ -171,8 +171,7 @@ Documentación completa de la API:
     curl -X POST \
       'https://test.mpandco.com/api/payment-intent/execute/request.json?id=03b9f66c-fefb-11e8-a647-b62cbc289574' \
       -H 'authorization: Bearer OAUTH-TOKEN' \
-      -F 'payment_execution[transactions][0][id]=2569f66c-fefb-11e8-a647-b62cbc289985' \
-      -F 'payment_execution[transactions][0][payToken]=9859f66c-fefb-11e8-a647-b62cbc289241' \
+      -F 'payment_execution[payToken]=9859f66c-fefb-11e8-a647-b62cbc289241' \
       -F 'payment_execution[pin]=1111'
 
 ### Respuesta:
