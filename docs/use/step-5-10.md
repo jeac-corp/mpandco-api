@@ -1,7 +1,7 @@
 [<- Regresar a la documentación]({{site.baseurl}}/)
 
 <div id="step510"></div>
-## 6.10. Agregar Registro de Multipagos.
+## 6.10. Agregar registro de pagos masivos (Dispersión).
 
 Este metodo permite crear elementos(items) de un lote que esté **pendiente por cargar**
 
@@ -11,7 +11,7 @@ URL: `api/multipayment/register-item.json`
 
 Método HTTP: `POST`
 
-Parametros: `type` = `DISPERSION` 
+Parametros: `type` = `DISPERSION`
 
 ### Datos minimos a enviar
 
@@ -21,9 +21,7 @@ Parametros: `type` = `DISPERSION`
             "nameAccount": "Witty Growth",
             "identificationNumber": "j54637469",
             "bankAccount": "01340000000000000000",
-            "amount": "20",
-            "phone": "4244569686",
-            "email": "developer@mpandco.com"
+            "amount": "20"
         }
     }
 
@@ -38,14 +36,12 @@ Parametros: `type` = `DISPERSION`
               "nameAccount": "Witty Growth",
               "identificationNumber": "j54637469",
               "bankAccount": "01340000000000000000",
-              "amount": "20",
-              "phone": "4244569686",
-              "email": "developer@mpandco.com"
+              "amount": "20"
           }
       }'
 
 ### Respuesta (Codigo 200)
-  
+
     {
       "ref":"MP19122800001",
       "identification_number":"j54637469",
@@ -56,21 +52,19 @@ Parametros: `type` = `DISPERSION`
 
 ### Respuesta (Error 400)
 
-    { 
+    {
       "code":400,
       "message":"Validation Failed",
       "errors":
         {
           "errors":["No se ha encontrado un banco para el numero de cuenta ingresado"],
           "children":
-            { 
+            {
               "reference":{},
               "nameAccount":{},
               "identificationNumber":{},
               "amount":{},
-              "bankAccount":{},
-              "phone":{},
-              "email":{}
+              "bankAccount":{}
             }
         }
     }
