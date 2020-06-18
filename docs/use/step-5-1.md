@@ -125,7 +125,7 @@ Ejemplo de respuesta (200):
             "method":"GET"
          },
          "execute":{
-          "href":"http://test.mpandco.com/api/payment-intent/execute/sale?id=03b9f66c-fefb-11e8-a647-b62cbc289574",
+          "href":"http://test.mpandco.com/api/payment-intent/execute/sale.json?id=03b9f66c-fefb-11e8-a647-b62cbc289574",
            "method":"POST"
            },
            "approval_url":{
@@ -204,7 +204,7 @@ Documentación completa de la API:
 ### Ejemplo de petición:
 
     curl -X POST \
-      'https://test.mpandco.com/api/payment-intent/execute/sale?id=03b9f66c-fefb-11e8-a647-b62cbc289574' \
+      'https://test.mpandco.com/api/payment-intent/execute/sale.json?id=03b9f66c-fefb-11e8-a647-b62cbc289574' \
       -H 'authorization: Bearer OAUTH-TOKEN' \
       -F 'payment_execution[paymentIntent]=03b9f66c-fefb-11e8-a647-b62cbc289574' \
       -F 'payment_execution[payer]=70be5130-fef7-11e8-a647-b62cbc289574'

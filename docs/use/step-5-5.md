@@ -93,7 +93,7 @@ Ejemplo de respuesta (200):
              "method":"GET"
           },
           "execute":{
-            "href":"http://test.mpandco.com/api/payment-intent/execute/sale?id=03b9f66c-fefb-11e8-a647-b62cbc289574",
+            "href":"http://test.mpandco.com/api/payment-intent/execute/sale.json?id=03b9f66c-fefb-11e8-a647-b62cbc289574",
             "method":"POST"
           },
           "approval_url":{
