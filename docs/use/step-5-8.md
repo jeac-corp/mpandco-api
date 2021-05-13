@@ -79,3 +79,5 @@ A continuación se muestra ejemplo de los modelos de respuesta de la API en form
 </table>
 
 **Nota**: Si recibe un código de respuesta diferente a los antes descritos deben ser tomados como errores de protocolo HTTPS.
+
+### Código de respuesta 400
