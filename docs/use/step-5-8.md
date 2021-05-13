@@ -59,6 +59,25 @@ A continuación se muestra ejemplo de los modelos de respuesta de la API en form
 <p>Solicitud incorrecta (revisar datos del formulario)</p>
 </td>
 </tr>
+
+<tr>
+<td width="289">
+<p>401</p>
+</td>
+<td width="263">
+<p>Token vencido o expirado</p>
+</td>
+</tr>
+
+<tr>
+<td width="289">
+<p>403</p>
+</td>
+<td width="263">
+<p>Sin acceso al recurso solicitado</p>
+</td>
+</tr>
+
 <tr>
 <td width="289">
 <p>404</p>
@@ -67,6 +86,16 @@ A continuación se muestra ejemplo de los modelos de respuesta de la API en form
 <p>No se encontro el recurso solicitado</p>
 </td>
 </tr>
+
+<tr>
+<td width="289">
+<p>405</p>
+</td>
+<td width="263">
+<p>Método Http no permitido (por ejemplo solo acepta POST ó GET)</p>
+</td>
+</tr>
+
 <tr>
 <td width="289">
 <p>503</p>
