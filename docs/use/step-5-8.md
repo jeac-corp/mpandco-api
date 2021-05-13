@@ -81,3 +81,23 @@ A continuación se muestra ejemplo de los modelos de respuesta de la API en form
 **Nota**: Si recibe un código de respuesta diferente a los antes descritos deben ser tomados como errores de protocolo HTTPS.
 
 ### Código de respuesta 400
+
+    {
+       "code": 400,
+       "message": "Validation Failed",
+       "errors": {
+           "errors": [
+               "Saldo insuficiente para realizar este env\u00edo de dinero."
+           ],
+           "children": {
+               "digitalAccountSource": [],
+               "bank": [],
+               "recipient": [],
+               "saveContact": [],
+               "identificationType": [],
+               "identificationNumber": [],
+               "amount": [],
+               "message": []
+           }
+       }
+    }
