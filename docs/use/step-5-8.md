@@ -101,3 +101,119 @@ A continuación se muestra ejemplo de los modelos de respuesta de la API en form
            }
        }
     }
+
+Otro ejemplo de una respuesta 400:
+
+    {
+       "code":400,
+       "message":"Validation Failed",
+       "errors":{
+          "children":{
+             "intent":{
+
+             },
+             "redirectUrls":{
+                "children":{
+                   "returnUrl":{
+                      "errors":[
+                         "La URI de retorno es obligatoria."
+                      ]
+                   },
+                   "cancelUrl":{
+                      "errors":[
+                         "La URI de cancelaci\u00f3n el obligatoria."
+                      ]
+                   }
+                }
+             },
+             "transactions":{
+                "children":[
+                   {
+                      "children":{
+                         "digitalAccountDestination":{
+
+                         },
+                         "amount":{
+                            "children":{
+                               "total":{
+
+                               },
+                               "currency":{
+
+                               },
+                               "details":{
+                                  "children":{
+                                     "shipping":{
+
+                                     },
+                                     "tax":{
+
+                                     },
+                                     "subTotal":{
+
+                                     }
+                                  }
+                               }
+                            }
+                         },
+                         "description":{
+
+                         },
+                         "invoiceNumber":{
+
+                         },
+                         "items":{
+                            "children":[
+                               {
+                                  "children":{
+                                     "name":{
+
+                                     },
+                                     "quantity":{
+
+                                     },
+                                     "sku":{
+
+                                     },
+                                     "price":{
+
+                                     },
+                                     "currency":{
+
+                                     }
+                                  }
+                               },
+                               {
+                                  "children":{
+                                     "name":{
+
+                                     },
+                                     "quantity":{
+
+                                     },
+                                     "sku":{
+
+                                     },
+                                     "price":{
+
+                                     },
+                                     "currency":{
+
+                                     }
+                                  }
+                               }
+                            ]
+                         },
+                         "distributions":{
+
+                         }
+                      }
+                   }
+                ]
+             },
+             "recipient":{
+
+             }
+          }
+       }
+    }
