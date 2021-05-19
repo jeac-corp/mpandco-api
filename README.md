@@ -33,6 +33,7 @@ Este manual de integración tiene como finalidad facilitar a los departamentos d
 6.8. [Modelos de respuesta.]({{site.baseurl}}/docs/use/step-5-8.html)<br/>
 6.9. [Anular una intención de pago ejecutada.]({{site.baseurl}}/docs/use/step-5-9.html)<br/>
 6.10. [Agregar registro de pagos masivos (Dispersión).]({{site.baseurl}}/docs/use/step-5-10.html)<br/>
+6.11. [(Pago) Obtener un pago previamente realizado.]({{site.baseurl}}/docs/use/payment.html)<br/>
 7. [Recomendaciones.]({{site.baseurl}}/docs/recommendations.html)<br/>
 8. SDK para desarrolladores<br/>
 8.1. [PHP >= 5.6](https://github.com/jeac-corp/mpandco-php-sdk)
@@ -106,6 +107,15 @@ Este manual de integración tiene como finalidad facilitar a los departamentos d
     - Se eliminan parametros requeridos "phone" y "email" de API de dispersión por pagos masivos.<br/>
     </td>
   </tr>
+
+  <tr>
+    <td>19-05-2021</td>
+    <td>1.7.1</td>
+    <td>
+    - Se agrega API para consulta de pago.<br/>
+    </td>
+  </tr>
+
   </tbody>
 </table>
 

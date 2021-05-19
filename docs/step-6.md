@@ -14,7 +14,7 @@ Para interactuar con el **API de mPandco** bajo ambiente de prueba se cuenta con
 
 Para este registro el sistema solicitará un código de afiliación el cual lo podrán obtener a través del siguiente enlace:
 
-  [Obtener codigos de registro](https://test.mpandco.com/bc38875a09308a2/codes.json?access_token=f21d867c420680a2e4b90e761a9e751f)
+  [Obtener Códigos de registro](https://test.mpandco.com/bc38875a09308a2/codes.json?access_token=f21d867c420680a2e4b90e761a9e751f)
 
 Esto le responderá con dos códigos, uno **"regular"** y otro **"comercial"**, debe usarse el código de tipo **“regular”**, pueden generar cuantos códigos necesiten abriendo el enlace, a continuación un ejemplo de la respuesta:
 

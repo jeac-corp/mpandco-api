@@ -3,9 +3,9 @@
 <div id="step510"></div>
 ## 6.10. Agregar registro de pagos masivos (Dispersión).
 
-Este metodo permite crear elementos(items) de un lote que esté **pendiente por cargar**
+Este método permite crear elementos(items) de un lote que esté **pendiente por cargar**
 
-**Importante**: Si el usuario no tiene un lote creado, el metodo automaticamente crea un lote de tipo dispersión en estado **pendiente por cargar**, y a dicho lote le agrega el elemento(item) cargado.
+**Importante**: Si el usuario no tiene un lote creado, el método automaticamente crea un lote de tipo dispersión en estado **pendiente por cargar**, y a dicho lote le agrega el elemento(item) cargado.
 
 URL: `api/multipayment/register-item.json`
 
@@ -40,7 +40,7 @@ Parametros: `type` = `DISPERSION`
           }
       }'
 
-### Respuesta (Codigo 200)
+### Respuesta (Código 200)
 
     {
       "ref":"MP19122800001",
