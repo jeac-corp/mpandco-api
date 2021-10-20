@@ -11,7 +11,8 @@ URL: `api/multipayment/register-item.json`
 
 Método HTTP: `POST`
 
-Parametros: `type` = `DISPERSION`
+Parametros:
+- `type` = Los valores son `DISPERSION` (transferencia interbancaria con una duración de 24h), `DISPERSION_INSTANT_INTERBANK` (transferencia interbancaria inmediata - aplican comisiones diferentes)
 
 ### Datos minimos a enviar
 
